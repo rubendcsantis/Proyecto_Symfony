@@ -1,0 +1,24 @@
+empleados_index:
+    path:     /
+    defaults: { _controller: "BlogBundle:empleados:index" }
+    methods:  GET
+
+empleados_show:
+    path:     /{id}/show
+    defaults: { _controller: "BlogBundle:empleados:show" }
+    methods:  GET
+
+empleados_new:
+    path:     /new
+    defaults: { _controller: "BlogBundle:empleados:new" }
+    methods:  [GET, POST]
+
+empleados_edit:
+    path:     /{id}/edit
+    defaults: { _controller: "BlogBundle:empleados:edit" }
+    methods:  [GET, POST]
+
+empleados_delete:
+    path:     /{id}/delete
+    defaults: { _controller: "BlogBundle:empleados:delete" }
+    methods:  DELETE

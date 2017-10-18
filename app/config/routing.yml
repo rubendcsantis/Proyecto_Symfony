@@ -1,0 +1,17 @@
+empleador:
+    resource: "@BlogBundle/Resources/config/routing/empleador.yml"
+    prefix:   /empleador
+
+empleadors:
+    resource: "@BlogBundle/Resources/config/routing/empleados.yml"
+    prefix:   /empleados
+
+
+blog:
+    resource: "@BlogBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
+app:
+    resource: "@AppBundle/Controller/"
+    type:     annotation

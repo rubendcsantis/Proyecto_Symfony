@@ -1,0 +1,4 @@
+blog_empleador:
+    resource: "@BlogBundle/Resources/config/routing/empleador.yml"
+    prefix:   /empleador
+
